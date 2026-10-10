@@ -11,7 +11,7 @@ SEED = 42
 # Use the exact query that gave you ~3,500 results in the count check
 QUERY = (
     '"Encephalitis"[MeSH Terms] AND hasabstract AND English[lang] '
-    'AND humans[MeSH Terms] AND 2024/10/09:2026/10/09[dp]'
+    'AND humans[MeSH Terms] AND 2022/10/09:2026/10/09[dp]'
 )
 
 def set_seed(seed: int = SEED):
