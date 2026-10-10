@@ -1,0 +1,13 @@
+requests
+pandas
+numpy
+pyarrow
+tqdm
+sentence-transformers
+faiss-cpu
+rank_bm25
+fastapi
+uvicorn
+gradio
+pytest
+python-dotenv
