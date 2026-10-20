@@ -1,0 +1,31 @@
+query,bm25,semantic,diff
+brain inflammation following COVID-19 infection,0.848,0.713,-0.136
+biomarkers predicting outcome in brain inflammation,1.0,0.89,-0.11
+cancer associated autoimmune brain disease,1.0,0.905,-0.095
+brain infection from parasites,0.905,0.836,-0.069
+movement disorders and abnormal movements in autoimmune brain disease,1.0,0.931,-0.069
+relapse of autoimmune brain inflammation,0.78,0.71,-0.069
+intensive care management of patients with brain inflammation,1.0,0.931,-0.069
+rabies and other virus infections of the brain,1.0,0.934,-0.066
+memory loss and seizures with antibodies against a neuronal protein,1.0,1.0,0.0
+role of plasma exchange and immunoglobulin in brain inflammation,1.0,1.0,0.0
+sleep disturbance in brain inflammation,1.0,1.0,0.0
+misdiagnosis of brain inflammation as schizophrenia,1.0,1.0,0.0
+brain inflammation in immunosuppressed or HIV patients,1.0,1.0,0.0
+treatment of brain inflammation in pregnancy,1.0,1.0,0.0
+young woman with psychiatric symptoms and seizures after a viral illness,0.673,0.718,0.046
+"children with fever, seizures and altered consciousness",0.861,0.915,0.054
+outcomes of herpes brain infection when treatment is delayed,0.934,1.0,0.066
+how to tell viral from autoimmune brain inflammation,0.931,1.0,0.069
+long term cognitive problems after brain infection,0.751,0.827,0.076
+brain infection after tick bite in europe,0.922,1.0,0.078
+immune therapy that works when steroids fail in brain inflammation,0.922,1.0,0.078
+how long does recovery take after severe brain inflammation,0.687,0.792,0.104
+chronic one-sided brain inflammation causing intractable seizures in children,0.805,0.915,0.11
+how common is brain inflammation in a population,0.78,0.915,0.135
+MRI findings in inflammation of the temporal lobes,0.78,0.922,0.142
+cerebrospinal fluid findings in brain inflammation,0.848,1.0,0.152
+EEG patterns in brain inflammation,0.78,1.0,0.22
+brain inflammation caused by mosquito bites,0.745,1.0,0.255
+why do antibody tests miss some autoimmune brain disease,0.707,1.0,0.293
+brain inflammation after vaccination,0.444,1.0,0.556

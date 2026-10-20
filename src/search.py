@@ -64,3 +64,22 @@ class BM25Searcher(BaseSearcher):
         scores = self.bm25.get_scores(tokenize(query))
         idx = np.argsort(-scores)[:k]
         return idx, scores[idx]
+
+
+class HybridSearcher(BaseSearcher):
+    name = "hybrid"
+
+    def __init__(self, c=60, pool=50):
+        super().__init__()
+        self.bm25 = BM25Searcher()
+        self.sem = SemanticSearcher()
+        self.c, self.pool = c, pool
+
+    def _top(self, query, k):
+        fused = {}
+        for s in (self.bm25, self.sem):
+            idx, _ = s._top(query, self.pool)
+            for rank, i in enumerate(idx):
+                fused[i] = fused.get(i, 0) + 1 / (self.c + rank + 1)
+        top = sorted(fused, key=fused.get, reverse=True)[:k]
+        return np.array(top), np.array([fused[i] for i in top])
